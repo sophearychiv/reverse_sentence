@@ -1,6 +1,8 @@
-require 'minitest/autorun'
-require 'minitest/reporters'
-require_relative '../lib/reverse_sentence'
+require "minitest/autorun"
+require "minitest/reporters"
+require_relative "../lib/reverse_sentence"
+
+Minitest::Reporters.use!
 
 describe "reverse sentence" do
   describe "basic tests" do
